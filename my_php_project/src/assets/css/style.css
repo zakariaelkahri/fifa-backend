@@ -1,0 +1,319 @@
+.hero {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size:150em;
+    position: relative;
+    background-image: url(../img/stadium_background.webp);
+background-size: cover no-repeat;    padding: 1rem;
+
+}
+
+.fifaheader {
+    margin-block: 0.3rem;
+    /* font-size: 2rem; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.fifaheader-two {
+
+    margin: 0px;
+    /* font-size: 1.2rem; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5rem;
+
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+
+}
+
+.formation {
+    padding: 10px;
+    backdrop-filter: blur(3px);
+    border: solid 1px white;
+    border-radius: 20px;
+
+}
+
+.img-formation {
+    height: 40em;
+    width: 43em;
+    padding-top: 3em;
+    position: relative;
+}
+
+/* cards parametre */
+.player-card {
+    width: fit-content;
+    position: absolute;
+
+}
+
+.card-container {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+
+}
+
+.back-img {
+    width: 6em;
+}
+
+.card-content {
+    width: fit-content;
+    position: absolute;
+    top: 18%;
+    left: 13.5%;
+}
+
+.player {
+    padding-left: 0.3em;
+}
+
+.teams {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    left: 72%;
+    top: 25%;
+    align-items: center;
+}
+
+.rating {
+    width: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    font-size: 0.7em;
+    left: 13%;
+    top: 14%;
+}
+
+
+.name {
+    justify-self: center;
+    margin: 0%;
+    /* padding-top: 10%; */
+    font-size: xx-small;
+
+}
+
+.statistics {
+    display: flex;
+    gap: 2px;
+    font-size: 10px;
+    justify-self: center;
+    font-size: 0.2em;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+}
+
+.stats span {
+    align-self: center;
+}
+
+/* players position */
+
+.LW {
+    bottom: 60%;
+    left: 20%;
+}
+
+.RW {
+    bottom: 60%;
+    left: 65%;
+}
+
+.ST {
+    bottom: 65%;
+    left: 42%;
+}
+
+.CDM {
+    bottom: 33%;
+    left: 42%;
+}
+
+.CM1 {
+    bottom: 40%;
+    left: 62%;
+}
+
+.CM2 {
+    bottom: 40%;
+    /* border: 2px solid red; */
+    left: 23%;
+}
+
+.CB1{
+    bottom: 15%;
+    left: 28%;
+}
+
+.CB2 {
+    bottom: 15%;
+    left: 55%;
+}
+
+.RB {
+    bottom: 18%;
+    left: 75%;
+}
+
+.LB {
+    bottom: 18%;
+    left: 8%;
+}
+
+.GK {
+    bottom: 5%;
+    left: 42%;
+}
+
+#playerinfo {
+
+    backdrop-filter: blur(10px);
+    width: 26em;
+    background-size: cover;
+    padding: 1em;
+    border-radius: 10px;
+    border: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.cardheader {
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 3em; */
+    color: rgb(252, 246, 246);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+
+.input label {
+    color: rgb(255, 255, 255);
+    /* font-size: 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input input {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    /* font-size: 20px; */
+
+}
+
+.player-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.player-inputs .input {
+    display: flex;
+    flex-direction: row;
+    width: 8em;
+    height: 1.2em;
+}
+
+.player-inputs .input input {
+    width: 3em;
+    outline: none;
+}
+
+.player-inputs .input label {
+    width: fit-content;
+}
+
+.gk-inputs {
+    display: none;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.gk-inputs .input {
+    display: flex;
+    flex-direction: row;
+    width: 8em;
+    height: 1.2em;
+
+}
+
+.gk-inputs .input input {
+    width: 3em;
+    outline: none;
+}
+
+.gk-inputs .input label {
+    width: fit-content;
+}
+
+
+
+.add {
+    width: fit-content;
+    background-color: rgb(24, 118, 29);
+    border: solid 0.5px white;
+    border-radius: 10px;
+    padding: 10px;
+    /* font-size: 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+    margin-top: 1em;
+
+}
+
+.add:hover {
+    background-color: rgb(20, 97, 24);
+
+}
+
+#icons {
+    display :flex ;
+    flex-direction: column;
+    position: absolute;
+    width: fit-content;
+    left: 5.5em;
+    top: 1.5em;
+    gap: 0.3em;
+}
+.icon{
+    font-size: 0.7em;    
+}
+.icon1{
+    font-size: 0.7em;  
+}
+.icon2{
+    font-size: 0.7em;    
+}
+
+#bensh {
+    background-color: rgba(255, 255, 255, 0.676);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 0.8em;
+}
